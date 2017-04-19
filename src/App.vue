@@ -67,11 +67,11 @@ import Firebase from 'firebase'
 
 
 let config = {
-    apiKey: "AIzaSyBlRiT7iAFhbmJgOCcKL1MoZwssjHB5RXk",
-    authDomain: "vuejs-app-676ec.firebaseapp.com",
-    databaseURL: "https://vuejs-app-676ec.firebaseio.com",
-    storageBucket: "vuejs-app-676ec.appspot.com",
-    messagingSenderId: "380341024291" // 초기화 코드
+    apiKey: "",
+    authDomain: "",
+    databaseURL: "",
+    storageBucket: "",
+    messagingSenderId: "" // 초기화 코드
 }
 
 let app = Firebase.initializeApp(config) // Firebase 초기화
